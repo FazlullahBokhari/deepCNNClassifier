@@ -1,0 +1,17 @@
+tensorflow
+dvc
+pandas
+mumpy
+notebook
+matplotlib
+seaborn 
+-e .
+
+
+# dev requirements
+pytest == 7.1.1
+tox == 3.27.0
+black == 19.10b0
+flake8 == 3.9.2
+mypy == 0.971
+-e .
