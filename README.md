@@ -1,1 +1,1 @@
-# dee Classifier project
+# deep Classifier project
