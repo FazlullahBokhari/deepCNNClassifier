@@ -130,3 +130,17 @@ dmypy.json
 
 # vs code
 .vscode
+
+# ignoring the dataset 
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.raw
+*.cr2
+*.nef
+*.orf
+*.sr2
+*.tif
+*.tiff
+*.zip
