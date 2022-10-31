@@ -134,7 +134,6 @@ dmypy.json
 # ignoring the dataset 
 *.jpg
 *.jpeg
-*.png
 *.gif
 *.raw
 *.cr2
