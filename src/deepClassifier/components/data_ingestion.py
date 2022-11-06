@@ -1,7 +1,7 @@
 import os
 import urllib.request as request
 from zipfile import ZipFile 
-from deepClassifier.entity import DataIngestionConfig 
+from deepClassifier.entity import DataIngestionConfig
 from deepClassifier import logger  
 from deepClassifier.utils import get_size 
 from tqdm import tqdm  
@@ -16,8 +16,8 @@ class DataIngestion:
         if not os.path.exists(self.config.local_data_file):
             logger.info("Download started....")
             filename, headers = request.urlretrieve(
-                url = self.config.source_URL,
-                filename = self.config.local_data_file
+                url=self.config.source_URL,
+                filename=self.config.local_data_file
             )
             logger.info(f"{filename} downloaded! with following info: \n{headers}") 
         else:
@@ -31,7 +31,7 @@ class DataIngestion:
         if not os.path.exists(target_filepath):
             zf.extract(f, working_dir)
         
-        if os.path.getsize(target_filepath) == 0:
+        if os.path.getsize(target_filepath)==0:
             logger.info(f"removing file:{target_filepath} of size {get_size(Path(target_filepath))}")
             os.remove(target_filepath)
 
