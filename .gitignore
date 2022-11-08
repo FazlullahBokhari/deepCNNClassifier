@@ -143,3 +143,4 @@ dmypy.json
 *.tif
 *.tiff
 *.zip
+*.h5
