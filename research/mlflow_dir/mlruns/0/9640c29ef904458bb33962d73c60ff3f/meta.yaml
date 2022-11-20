@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/0/9640c29ef904458bb33962d73c60ff3f/artifacts
+end_time: 1668945326050
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9640c29ef904458bb33962d73c60ff3f
+run_name: treasured-stork-834
+run_uuid: 9640c29ef904458bb33962d73c60ff3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668945320799
+status: 3
+tags: []
+user_id: fazlu

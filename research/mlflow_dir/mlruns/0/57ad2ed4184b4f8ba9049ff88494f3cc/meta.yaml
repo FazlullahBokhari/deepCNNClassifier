@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/0/57ad2ed4184b4f8ba9049ff88494f3cc/artifacts
+end_time: 1668945425677
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 57ad2ed4184b4f8ba9049ff88494f3cc
+run_name: bold-asp-233
+run_uuid: 57ad2ed4184b4f8ba9049ff88494f3cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668945420328
+status: 3
+tags: []
+user_id: fazlu

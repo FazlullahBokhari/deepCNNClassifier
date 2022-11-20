@@ -14,4 +14,9 @@
 10. Update the dvc.yaml
 11. run "dvc repro" for running all the stages in pipeline
 
-![](https://github.com/FazlullahBokhari/deepCNNClassifier/blob/main/docs/images/Data%20Ingestion%402x%20(1).png)
+![](https://github.com/FazlullahBokhari/deepCNNClassifier/blob/main/docs/images/Data%20Ingestion%402x%20(1).png) 
+
+mlflow server \ 
+> --backend-store-uri sqlite://mlflow.db \ 
+> --default-artifact-root ./artifacts \ 
+> --host 0.0.0.0 -p 1234

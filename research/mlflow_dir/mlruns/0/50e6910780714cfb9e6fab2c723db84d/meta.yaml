@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/0/50e6910780714cfb9e6fab2c723db84d/artifacts
+end_time: 1668945477293
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 50e6910780714cfb9e6fab2c723db84d
+run_name: efficient-crow-72
+run_uuid: 50e6910780714cfb9e6fab2c723db84d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668945472039
+status: 3
+tags: []
+user_id: fazlu
