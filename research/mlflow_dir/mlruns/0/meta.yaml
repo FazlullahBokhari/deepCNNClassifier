@@ -1,6 +1,4 @@
-artifact_location: ./mlruns/0
-creation_time: 1668945204460
+artifact_location: file:///C:/Users/fazlu/Working_space/VS_Code_env/deepCNNClassifier/research/mlflow_dir/mlruns/0
 experiment_id: '0'
-last_update_time: 1668945204460
 lifecycle_stage: active
 name: Default

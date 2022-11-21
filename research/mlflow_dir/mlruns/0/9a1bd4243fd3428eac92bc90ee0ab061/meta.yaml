@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/fazlu/Working_space/VS_Code_env/deepCNNClassifier/research/mlflow_dir/mlruns/0/9a1bd4243fd3428eac92bc90ee0ab061/artifacts
+deleted_time: null
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 9a1bd4243fd3428eac92bc90ee0ab061
+run_uuid: 9a1bd4243fd3428eac92bc90ee0ab061
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668949930597
+status: 1
+tags: []
+user_id: fazlu
