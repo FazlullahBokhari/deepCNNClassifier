@@ -18,10 +18,10 @@
   
 MLFLOW_TRACKING_URI=https://dagshub.com/fazlullahb/deepCNNClassifier.mlflow \
 MLFLOW_TRACKING_USERNAME=fazlullahb \
-MLFLOW_TRACKING_PASSWORD=12eadccb6e23e1fd35381edaf52d8dc7e2e1c48d \
+MLFLOW_TRACKING_PASSWORD=<> \
 python script.py
 
 $ mlflow server \ 
 > --backend-store-uri sqlite:///mlflow.db \ 
 > --default-artifact-root ./artifacts \ 
-> --host 0.0.0.0 -p 1234
+> --host 0.0.0.0 -p  

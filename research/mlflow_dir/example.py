@@ -34,10 +34,10 @@ if __name__ == "__main__":
 
     # Read the wine-quality csv file from the URL
     csv_url = (
-        "http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv"
+        "https://github.com/FazlullahBokhari/Datasets/blob/main/winequality-red.csv?raw=true"
     )
     try:
-        data = pd.read_csv(csv_url, sep=";")
+        data = pd.read_csv(csv_url)
     except Exception as e:
         logger.exception(
             "Unable to download training & test CSV, check your internet connection. Error: %s", e
@@ -47,10 +47,10 @@ if __name__ == "__main__":
     train, test = train_test_split(data)
 
     # The predicted column is "quality" which is a scalar from [3, 9]
-    train_x = train.drop(["quality"], axis=1)
-    test_x = test.drop(["quality"], axis=1)
-    train_y = train[["quality"]]
-    test_y = test[["quality"]]
+    train_x = train
+    test_x = test
+    train_y = train
+    test_y = test
 
     alpha = float(sys.argv[1]) if len(sys.argv) > 1 else 0.5
     l1_ratio = float(sys.argv[2]) if len(sys.argv) > 2 else 0.5
@@ -74,7 +74,7 @@ if __name__ == "__main__":
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
         
-        remote_server_uri = "https://localhost:1234"
+        remote_server_uri = "https://dagshub.com/fazlullahb/deepCNNClassifier.mlflow"
         
         mlflow.set_tracking_uri(remote_server_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
