@@ -16,12 +16,19 @@
 
 ![](https://github.com/FazlullahBokhari/deepCNNClassifier/blob/main/docs/images/Data%20Ingestion%402x%20(1).png) 
   
+Step 1: Set the environment variable | Get it from daghub -> remote tab -> mlflow tab  
 MLFLOW_TRACKING_URI=https://dagshub.com/fazlullahb/deepCNNClassifier.mlflow \
 MLFLOW_TRACKING_USERNAME=fazlullahb \
 MLFLOW_TRACKING_PASSWORD=<> \
 python script.py
 
+Step 2: install mlflow 
+
+Step 3: Set remote URI
+
+Ste 4: Use context manager of mlflow to start run and then log metrics, params and model
 $ mlflow server \ 
 > --backend-store-uri sqlite:///mlflow.db \ 
 > --default-artifact-root ./artifacts \ 
 > --host 0.0.0.0 -p  
+
